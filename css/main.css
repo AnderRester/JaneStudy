@@ -71,4 +71,54 @@ body {
     border-radius: 3px;
     padding: 10px 18px 10px 18px;
     margin: 10% auto 0 auto;
+    cursor: pointer;
+}
+
+/*          Story Block         */
+
+.story_block {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.story_block h1 {
+    color: chartreuse;
+    font-family: "Apple SD Gothic Neo";
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.story_block_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0% 3% 0% 3%;
+    align-items: center;
+}
+
+.story_images_cont {
+    width: 40%;
+}
+
+.story_images_cont img {
+    width: 40%;
+}
+
+.story_description {
+    font-family: "Apple SD Gothic Neo";
+    color: lightgrey;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 38%;
+}
+
+.story_description_more_btn {
+    font-family: "Apple SD Gothic Neo";
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 4%;
 }
